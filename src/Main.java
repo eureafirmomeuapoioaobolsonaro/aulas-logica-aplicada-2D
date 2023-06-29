@@ -28,7 +28,15 @@ public class Main {
         Pessoa nova = new Pessoa();
         nova.nome="Tina";
         nova.comer();
-
+        // construir objetos
+        Semente s1 = new Semente();
+        Animal cao1 = new Animal("Pastor");
+        Animal gato1 = new Animal("laranja");
+        Animal gato3;
+        gato3 = new Animal();
+        gato3 = new Animal("preto e banco");
+        Animal coelho;
+        coelho  = new Animal("Roger" , "Rabbit");
     }
 
 
